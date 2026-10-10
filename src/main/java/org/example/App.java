@@ -36,9 +36,9 @@ public class App {
             em.getTransaction().begin();
 
             // create some products
-            Produit p1 = new Produit("Laptop", new BigDecimal("999.99"));
-            Produit p2 = new Produit("Smartphone", new BigDecimal("499.99"));
-            Produit p3 = new Produit("Tablette", new BigDecimal("299.99"));
+            Produit p1 = new Produit("Laptop", new BigDecimal("12009.99"));
+            Produit p2 = new Produit("Smartphone", new BigDecimal("872542.99"));
+            Produit p3 = new Produit("Tablette", new BigDecimal("235.99"));
 
             // persists prdcts
             em.persist(p1);
